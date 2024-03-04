@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
-    <link re1="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="icon" href="./favicon/calc.ico">
     <script src="./javascript.js" defer></script>
 </head>
 <body>
@@ -14,36 +15,46 @@
             <div class="display">0</div>
         </div>
         <div class="keypad">
-            <button id="clearBtn" class="light-grey">AC</button>
-            <button id="signChange"class="light-grey">+/-</button>
-            <button id="percent" class="light-grey">%</button>
-            <button id="divide" class="orange">÷</button>
+            <div class="section">
+                <button id="clearBtn" class="light-grey">AC</button>
+                <button id="signChange"class="light-grey">+/-</button>
+                <button id="percent" class="light-grey">%</button>
+                <button id="divide" class="orange">÷</button>
+            </div>
 
-            <button id="seven" class="dark-grey">7</button>
-            <button id="eight" class="dark-grey">8</button>
-            <button id="nine" class="dark-grey">9</button>
-            <button id="multiply" class="orange">x</button>
+            <div class="section">
+                <button id="seven" class="dark-grey">7</button>
+                <button id="eight" class="dark-grey">8</button>
+                <button id="nine" class="dark-grey">9</button>
+                <button id="multiply" class="orange">×</button>
+            </div>
 
-            <button id="four" class="dark-grey">4</button>
-            <button id="five" class="dark-grey">5</button>
-            <button id="six" class="dark-grey">6</button>
-            <button id="subtract" class="orange">-</button>
+            <div class="section">
+                <button id="four" class="dark-grey">4</button>
+                <button id="five" class="dark-grey">5</button>
+                <button id="six" class="dark-grey">6</button>
+                <button id="subtract" class="orange">-</button>
+            </div>
 
-            <button id="one" class="dark-grey">1</button>
-            <button id="two" class="dark-grey">2</button>
-            <button id="three" class="dark-grey">3</button>
-            <button id="addition" class="orange">+</button>
+            <div class="section">
+                <button id="one" class="dark-grey">1</button>
+                <button id="two" class="dark-grey">2</button>
+                <button id="three" class="dark-grey">3</button>
+                <button id="addition" class="orange">+</button>
+            </div>
 
-            <button id="zero" class="dark-grey">0</button>
-            <button id="decimal" class="dark-grey">.</button>
-            <button id="equal" class="orange">=</button>
+            <div class="section">
+                <button id="zero" class="dark-grey">0</button>
+                <button id="decimal" class="dark-grey">.</button>
+                <button id="equal" class="orange">=</button>
+            </div>
         </div>
     </div>
     <footer class="footer">
         <p>
-            " Copyright © "
+            Copyright ©
             <script> document.write(new Date().getFullYear()) </script>
-            " ehuang1998 "
+            - ehuang1998
         </p>
     </footer>
 </body>
