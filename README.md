@@ -1,4 +1,4 @@
-# odin-calculator
+# calculator-project
 
 An online calculator I built as part of The Odin Project series. Built using HTML5, CSS3, JavaScript.
 
