@@ -49,6 +49,10 @@ class Calculator {
                 break;
             
             case '÷':
+                if (current === 0){
+                    result = "Error"
+                    break;
+                }
                 result = prev / current;
                 break;
 
