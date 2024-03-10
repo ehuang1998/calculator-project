@@ -53,19 +53,28 @@ button:active {
 
 .screen {
     display: flex;
+    flex-direction: column;
     align-items: center;
     height: 120px;
     width: 394px;
     overflow: hidden;
 }
 
-.display {
-    height: 120px;
+.previous-operand {
+    height: 40px;
     font-weight: 250;
     color: white;
-    font-size: 90px;
+    font-size: 25px;
     margin-left: auto;
-    padding-bottom: 14px;
+    padding-right: 20px;
+}
+
+.current-operand {
+    height: 80px;
+    font-weight: 250;
+    color: white;
+    font-size: 50px;
+    margin-left: auto;
     padding-right: 20px;
 }
   

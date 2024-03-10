@@ -12,41 +12,42 @@
 
     <div class="main">
         <div class="screen">
-            <div class="display">0</div>
+            <div data-previous-operand class="previous-operand"></div>
+            <div data-current-operand class="current-operand">0</div>
         </div>
         <div class="keypad">
             <div class="section">
-                <button id="clearBtn" class="light-grey">AC</button>
-                <button id="signChange"class="light-grey">+/-</button>
-                <button id="percent" class="light-grey">%</button>
-                <button id="divide" class="orange">÷</button>
+                <button data-all-clear id="clearBtn" class="light-grey">AC</button>
+                <button data-sign-change id="signChange"class="light-grey">+/-</button>
+                <button data-percent id="percent" class="light-grey">%</button>
+                <button data-operation id="divide" class="orange">÷</button>
             </div>
 
             <div class="section">
-                <button id="seven" class="dark-grey">7</button>
-                <button id="eight" class="dark-grey">8</button>
-                <button id="nine" class="dark-grey">9</button>
-                <button id="multiply" class="orange">×</button>
+                <button data-number id="seven" class="dark-grey">7</button>
+                <button data-number id="eight" class="dark-grey">8</button>
+                <button data-number id="nine" class="dark-grey">9</button>
+                <button data-operation id="multiply" class="orange">×</button>
             </div>
 
             <div class="section">
-                <button id="four" class="dark-grey">4</button>
-                <button id="five" class="dark-grey">5</button>
-                <button id="six" class="dark-grey">6</button>
-                <button id="subtract" class="orange">-</button>
+                <button data-number id="four" class="dark-grey">4</button>
+                <button data-number id="five" class="dark-grey">5</button>
+                <button data-number id="six" class="dark-grey">6</button>
+                <button data-operation id="subtract" class="orange">-</button>
             </div>
 
             <div class="section">
-                <button id="one" class="dark-grey">1</button>
-                <button id="two" class="dark-grey">2</button>
-                <button id="three" class="dark-grey">3</button>
-                <button id="addition" class="orange">+</button>
+                <button data-number id="one" class="dark-grey">1</button>
+                <button data-number id="two" class="dark-grey">2</button>
+                <button data-number id="three" class="dark-grey">3</button>
+                <button data-operation id="addition" class="orange">+</button>
             </div>
 
             <div class="section">
-                <button id="zero" class="dark-grey">0</button>
-                <button id="decimal" class="dark-grey">.</button>
-                <button id="equal" class="orange">=</button>
+                <button data-number id="zero" class="dark-grey">0</button>
+                <button data-number id="decimal" class="dark-grey">.</button>
+                <button data-equals id="equal" class="orange">=</button>
             </div>
         </div>
     </div>
